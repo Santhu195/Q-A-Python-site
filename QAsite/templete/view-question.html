@@ -22,7 +22,7 @@
                 <textarea name="answer" id="answer" rows="8" cols="80" placeholder="What's your answer?" required></textarea><br />
                 <input type="text" id="posted_by" name="posted_by" value="" autocomplete="off" placeholder="Enter your name ..." required><br />
                 <input type="hidden" id="qid" name="qid" value="{{ question.qid }}">
-                <input type="submit" name="answer_question" value="Answer Question">
+                <input type="submit" name="answer_question" id= "answer_question"  value="Answer Question">
                 
              </form> 
             {% if error %}
