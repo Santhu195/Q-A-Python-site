@@ -8,7 +8,7 @@ Q&amp;A site with login and register
 4. cd QAsite and type python3 manage.py makemigrations QAsite
 5. type python3 manage.py migrate
 6. type python3 manage.py runserver
-7. check the website from localhost provided in concole after step 6, i,e http://127.0.0.1:8000
+7. check the website from localhost provided in console after step 6, i,e http://127.0.0.1:8000
 8. Register and login with user and then you see http://127.0.0.1:8000/welcome where all the questions listed and thir answers
 9. go to http://127.0.0.1:8000/ask-question to create a qustion
 10. then you can answer page will be redirected
