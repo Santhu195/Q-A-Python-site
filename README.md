@@ -4,8 +4,8 @@ Q&amp;A site with login and register
 # Steps to run the code
 1. Python 3.7 should be installed 
 2. install Pip by sudo apt install pip
-3. cd QAsite and install requirements file by sudo pip3 install -r requirements.txt
-4. cd QAsite and type python3 manage.py makemigrations QAsite
+3. install requirements file by sudo pip3 install -r requirements.txt
+4. type python3 manage.py makemigrations QAsite
 5. type python3 manage.py migrate
 6. type python3 manage.py runserver
 7. check the website from localhost provided in console after step 6, i,e http://127.0.0.1:8000
